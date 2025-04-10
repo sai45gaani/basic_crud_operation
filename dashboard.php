@@ -44,6 +44,7 @@ include_once 'includes/header.php';
     <div class="col-md-4">
         <div class="card dashboard-card">
             <div class="card-body text-center">
+                <i class="bi bi-file-earmark-text mb-2" style="font-size: 2rem; color: #4e73df;"></i>
                 <div class="card-title">Total Entries</div>
                 <div class="card-value"><?php echo number_format($stats['total_entries']); ?></div>
             </div>
@@ -52,6 +53,7 @@ include_once 'includes/header.php';
     <div class="col-md-4">
         <div class="card dashboard-card">
             <div class="card-body text-center">
+                <i class="bi bi-credit-card mb-2" style="font-size: 2rem; color: #1cc88a;"></i>
                 <div class="card-title">Total Credit</div>
                 <div class="card-value"><?php echo number_format($stats['total_credit'], 2); ?></div>
             </div>
@@ -60,6 +62,7 @@ include_once 'includes/header.php';
     <div class="col-md-4">
         <div class="card dashboard-card">
             <div class="card-body text-center">
+                <i class="bi bi-cash-stack mb-2" style="font-size: 2rem; color: #f6c23e;"></i>
                 <div class="card-title">Total Debit</div>
                 <div class="card-value"><?php echo number_format($stats['total_debit'], 2); ?></div>
             </div>

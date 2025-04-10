@@ -54,7 +54,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
     <div class="container">
         <div class="form-signin">
-            <h2 class="text-center mb-4">CRUD Application</h2>
+            <h1 class="text-center mb-4">CRUD Application</h1>
             
             <?php if(!empty($error_msg)): ?>
                 <div class="alert alert-danger"><?php echo $error_msg; ?></div>
