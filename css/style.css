@@ -1,0 +1,99 @@
+/* css/style.css (expanded version) */
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    border-radius: 4px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    border: none;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.form-signin {
+    max-width: 350px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.dashboard-card {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.dashboard-card .card-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #6c757d;
+}
+
+.dashboard-card .card-value {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #495057;
+}
+
+.table-actions {
+    white-space: nowrap;
+}
+
+.btn {
+    border-radius: 4px;
+}
+
+.table thead th {
+    border-top: none;
+    border-bottom-width: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    color: #495057;
+}
+
+.alert {
+    border: none;
+    border-radius: 4px;
+}
+
+/* Audit log styling */
+.audit-item {
+    padding: 10px 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.audit-item:last-child {
+    border-bottom: none;
+}
+
+.audit-field {
+    font-weight: 600;
+}
+
+.audit-change {
+    padding: 2px 5px;
+    border-radius: 3px;
+    background-color: #f8f9fa;
+    font-family: monospace;
+    font-size: 0.9rem;
+}
